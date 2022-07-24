@@ -1,0 +1,119 @@
+.heading {
+    width: 95%;
+    margin: 10px;
+    text-align: left;
+    border: groove 2px black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h2 {
+    margin-left: 15px;
+    display: inline;
+}
+
+#instructions {
+    border: solid 2px black;
+    float: right;
+    margin-right: 15px;
+}
+
+#instructions {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  color: #0d172a;
+  font-size: 20px;
+  transition: all .2s cubic-bezier(.4, 0, .2, 1);
+  letter-spacing: 3;
+  font-family: 'Anton', sans-serif;
+}
+
+#instructions:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+#marioImage {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#marioheading {
+    height: 30px;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#playButton  {
+    width: 250px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lobster', cursive;
+    }
+  
+#playButton:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+#modalHeading {
+    display: inline;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.imgInstructions {
+    display: inline-block;
+    width: 45%;
+}
+
+.modal-content {
+    animation: shadow 1s infinite;
+}
+
+@keyframes shadow {
+    from{box-shadow: 5px 10px 5px 1px rgb(252, 96, 96);}
+    to{box-shadow: 5px 10px 5px 1px rgb(79, 79, 248);}
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2;
+    height: 40px;
+    padding: 10px;
+    bottom: 0;
+}
+
+video {
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
